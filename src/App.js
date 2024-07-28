@@ -1,11 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
 
+import Attandance from "./Attandance";
+import Classes from "./Classes";
 function App() {
   return (
     <>
      <h1>
-       kodnest
+       kodnest App
+       <Classes />
+       <Attandance /> 
      </h1>
     </>
   );
